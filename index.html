@@ -2,96 +2,112 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="CV-HTML/CSS" content="Voici le CV que j'ai réalisé en HTML/CSS, initial-scale=1.0">
     <title>CV html css</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./pages/favicon.png">
 </head>
 <body>
-        <div id="CV-container">
+    <div id="CV-container">
+    <header>
         <div id="infophoto">
-            <div><img src="./pages/IMG_0419.jpg" id="photo" alt="ma tête"></div>
+            <a href="./pages/IMG_0419.jpg" target="_blank"><img src="./pages/IMG_0419.jpg" id="photo" alt="ma tête"></a>
             <div id="infoprimaire">
                 <h1><strong>KLINGER BASTIEN</strong></h1>
                 <p>Newbie développeur</p>
             </div>
-            <div id="infosecondaire">
-                <p><a href="https://maps.app.goo.gl/4YBqBBvTZSffLNAQA"></a>La Petite Venise <br>
+            <address id="infosecondaire">
+                <p><a href="https://www.google.fr/maps/place/La+Petite+Venise/@48.0749567,7.3539399,17z/data=!3m1!5s0x479165e7cab24c93:0x1cdc9b59
+                    dc09027!4m17!1m10!3m9!1s0x479165e7ca708801:0x3dd26129d8defa62!2sPetite+Venise!5m2!4m1!1i2!8m2!3d48.0749531!4d7.3565148!16s%2F
+                    g%2F11r921b6g!3m5!1s0x479165ef5006a63d:0xe758095d72e39015!8m2!3d48.0739795!4d7.357287!16s%2Fg%2F15dpc73c?entry=ttu" target="_blank">La Petite Venise</a> <br>
                 68000 Colmar</p>
                 <p><a href="mailto:bastien@gmail.com">bastien@gmail.com</a></p>
                 <p><a href="tel:0606060606">0606060606</a></p>
-            </div>
+            </address>
         </div>
+    </header> 
+    <main> 
     <div id="texte"> 
         <div id="infosurmoi">
-            <div id="apropos"><h2>A propos</h2>
-                <div id="textapropos">« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis dolor in neque viverra iaculis. Mauris tempor condimentum nisl sed vestibulum. Donec nec dui non quam accumsan sollicitudin.
-                    Integer mattis, lorem id feugiat faucibus, tellus orci pharetra mi, et sollicitudin neque odio et ante. Phasellus sed tortor vel ante aliquet mattis. »</div>
+            <section id="apropos"><h2>A propos</h2>
+                <article id="textapropos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis dolor in neque viverra iaculis.
+                     Mauris tempor condimentum nisl sed vestibulum. Donec nec dui non quam accumsan sollicitudin.
+                     Integer mattis, lorem id feugiat faucibus, tellus orci pharetra mi, et sollicitudin neque odio et ante.
+                     Phasellus sed tortor vel ante aliquet mattis. </article>
                 
 
-            </div>
-            <div id="langues"><h2>Langues parlées</h2>
-                <ul>
+            </section>
+            <section id="langues"><h2>Langues parlées</h2>
+                <ul> 
                     <li>Francais - Langue maternelle</li>
                     <li>Anglais - Intermédiare</li>
-                </ul>
-            </div>
-            <div id="hobbies"><h2>Centres d'intérêts</h2>
+                </ul> 
+            </section>
+            <section id="hobbies"><h2>Centres d'intérêts</h2>
                 <ul>
                     <li>Jeux vidéos</li>
                     <li>Sport-musculation</li>
                     <li>Films-series-manga</li>
                 </ul>
-            </div>
+            </section>
         </div>
         <div id="corpsCV">
-            <div id="expériences"><h2>Expériences professionelles</h2>
-                <p><strong>Opérateur chez THK</strong></p>
-                <p>Du 09/2021 au 03/2023</p>                
+            <section id="expériences"><h2>Expériences professionelles</h2>
+                <article>
+                <p><b>Opérateur chez THK</b></p>
+                <time>Du 09/2021 au 03/2023</time>                
                     <ul>
                         <li>Opérateur sur machine de production</li>
                         <li>Nettoyage et contrôle des rails</li>
                         <li>Entretien des outils de mesure</li>
                         <li>Inspection et redressage des rails</li>
                     </ul>
-                <p><strong>Opérateur polyvalent chez LONZA</strong></p>
-                <p>Du 08/2019 au 02/2020</p>
+                </article> 
+                <article>   
+                <p><b>Opérateur polyvalent chez LONZA</b></p>
+                <time>Du 08/2019 au 02/2020
                     <ul>
                         <li>Opérateur des graisseurs</li>
                         <li>contrôle des Tanks/Dishs</li>
                         <li>Lavage titane</li>
                     </ul>
-                <p><strong>Contrôleur qualité chez TIMKEN</strong></p>
-                Du 09/2017 au 03/2018
+                </article> 
+                <article>   
+                <p><b>Contrôleur qualité chez TIMKEN</b></p>
+                <time>09/2017 au 03/2018
                     <ul>
                         <li>contrôle des roulements</li>                   
                     </ul>
-            </div>
-            <div id="diplomes"><h2>Diplômes/Formation</h2>
-                <p><strong>Baccalauréat Science et Technologie de l'Industrie et du Développement Durable</strong></p>
-                <p>Du 09/2014 au 06/2017 <br>
-                Lycée Blaise Pascal</p>
-            </div>
-            <div id="competences"><h2>Compétences</h2>
+                </article>    
+            </section>
+            <section id="diplomes"><h2>Diplômes/Formation</h2>
+            <article>
+                <p><b>Baccalauréat Science et Technologie de l'Industrie et du Développement Durable</b></p>
+                <p><time> Du 09/2014 au 06/2017</p>
+                Lycée Blaise Pascal
+            </article>
+            </section>
+            <section id="competences"><h2>Compétences</h2>
+            <article>
                     <ul>
                         <li>HTML 5-Débutant</li>
                         <li>CSS-débutant</li>
                         <li>Git/Github-débutant</li>
                     </ul>
-            </div>       
+            </article>
+            </section>     
         </div>
-    </div>   
-        <div id="footer">
-            <img src="./pages/reseaux-sociaux.png" alt="icônes réseaux">
+    </div>  
+    </main>   
+    <footer>
+        <figure>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./pages/reseaux-sociaux.png" alt="icônes réseaux"></a>
             <img src="./pages/favicon.png" alt="favicon">
-        </div>
-
-
-
-
-
+        </figure>
+    </footer>
 
 
     </div>
-
+    
 </body>
 </html>
