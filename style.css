@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");  
+    font-weight: bold;
+    font-style: normal;  
+}
+@font-face {
+    font-family: "raleway";
+    src: url("../fonts/Raleway-Italic.ttf") format("truetype");    
+    font-weight: normal;
+    font-style: italic;
+}
+h2 {
+    font-family: "Lato";
+    background-color: #dbc2a4;
+    color: black;
+}
+
+#corpsCV {
+    background-color: white;
+    border:1px solid black ;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;    
+    padding-right: 10px;
+    
+}
+
+#texte{
+    display: grid;
+    grid-template-columns: 1fr 2fr;    
+}
+
+#infosurmoi {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: 300px;   
+    text-indent: 20px;
+}
+
+
+
+#CV-container{
+    box-sizing: border-box;
+    background-color: #782221;
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;   
+    font-family: "raleway";
+}
+
+#infosecondaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white ;
+    padding-right: 20px;
+    padding-left: 20px;   
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#photo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;   
+    border-radius: 50%;
+    box-shadow: 0 0 15px white;
+    margin: auto;    
+}
+
+#photo:hover{
+    cursor: zoom-in;
+}
+
+
+#infoprimaire{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: white;    
+}
+
+#textapropos{
+    padding-left: 20px;
+    text-align:justify;
+}
+
+figure{
+    width: 50px;
+    height: 50px;   
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+img:hover{
+    opacity: 50%;
+}
+
+article:hover{
+    border-right: 8px solid #782221;
+    display:block;
+    height: auto;
+}
+
+
+
+
