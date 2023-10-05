@@ -26,7 +26,7 @@ h2 {
 
 #corpsCV {
     background-color: white;
-    border:1px solid black ;
+    border-right:1px solid black ;
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
